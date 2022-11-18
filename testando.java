@@ -1,21 +1,19 @@
-import java.util.concurrent.atomic.*;
-import java.util.Scanner; 
-import java.util.Locale;
+public class Teste{
 
-public class testando{
+    public static void main(String[] args) {
+        
+        String x = "b";
+        String y = "c";
 
-/**
- * @param args
- */
-public static void main(string[]args){
-Locale.setDefault(Locale.US);
+            if(x.equals(y)){ // compatativo em java
 
+                System.out.printf("Ã© igual");
 
-
-}
-
+            }else{
+                System.out.printf("diferente");
+            }
 
 
-
-
+    }
+    
 }
